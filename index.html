@@ -923,13 +923,13 @@
                     <svg viewBox="0 0 24 24" fill="currentColor">
                         <path d="M19 4H5C3.89 4 3 4.9 3 6V18C3 19.1 3.89 20 5 20H19C20.1 20 21 19.1 21 18V6C21 4.9 20.1 4 19 4ZM19 18H5V8H19V18Z"/>
                     </svg>
-                    Last Updated: February 17, 2025
+                    Last Updated: March 31, 2026
                 </span>
                 <span>
                     <svg viewBox="0 0 24 24" fill="currentColor">
                         <path d="M11.99 2C6.47 2 2 6.48 2 12C2 17.52 6.47 22 11.99 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 11.99 2ZM12 20C7.58 20 4 16.42 4 12C4 7.58 7.58 4 12 4C16.42 4 20 7.58 20 12C20 16.42 16.42 20 12 20ZM12.5 7H11V13L16.25 16.15L17 14.92L12.5 12.25V7Z"/>
                     </svg>
-                    Version 1.0
+                    Version 2.0
                 </span>
             </div>
             
@@ -944,7 +944,7 @@
                     <svg viewBox="0 0 24 24" fill="currentColor">
                         <path d="M18 8H17V6C17 3.24 14.76 1 12 1C9.24 1 7 3.24 7 6V8H6C4.9 8 4 8.9 4 10V20C4 21.1 4.9 22 6 22H18C19.1 22 20 21.1 20 20V10C20 8.9 19.1 8 18 8ZM12 17C10.9 17 10 16.1 10 15C10 13.9 10.9 13 12 13C13.1 13 14 13.9 14 15C14 16.1 13.1 17 12 17ZM15.1 8H8.9V6C8.9 4.29 10.29 2.9 12 2.9C13.71 2.9 15.1 4.29 15.1 6V8Z"/>
                     </svg>
-                    No Data Collection
+                    No Personal Data
                 </div>
                 <div class="badge">
                     <svg viewBox="0 0 24 24" fill="currentColor">
@@ -989,8 +989,8 @@
                         <path d="M12 1L3 5V11C3 16.55 6.84 21.74 12 23C17.16 21.74 21 16.55 21 11V5L12 1ZM12 11.99H19C18.47 16.11 15.72 19.78 12 20.93V12H5V6.3L12 3.19V11.99Z"/>
                     </svg>
                 </div>
-                <h3>Zero Data Collection</h3>
-                <p>We don't collect, store, or transmit any personal information or document data.</p>
+                <h3>Anonymous Analytics Only</h3>
+                <p>We don't collect personal information or documents. We only collect anonymous crash and usage data to improve stability.</p>
             </div>
             
             <div class="highlight-card">
@@ -1056,7 +1056,7 @@
                 </div>
                 <div class="section-title-group">
                     <h2>Information We Collect</h2>
-                    <p>Spoiler: We don't collect any personal information</p>
+                    <p>Spoiler: We only collect anonymous app performance data</p>
                 </div>
             </div>
             
@@ -1065,7 +1065,7 @@
                     <path d="M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 12 2ZM13 17H11V11H13V17ZM13 9H11V7H13V9Z"/>
                 </svg>
                 <p>
-                    PDF Suite Pro operates entirely offline and does not collect any personal information, usage data, or document content from users.
+                    PDF Suite Pro operates its core features entirely offline and does not collect any personal information or document content from users. We strictly use anonymous analytics to track app stability and crashes.
                 </p>
             </div>
             
@@ -1103,8 +1103,8 @@
                     </tr>
                     <tr>
                         <td>Usage Analytics</td>
-                        <td class="status-no">✗ No</td>
-                        <td>Feature usage, session duration, clicks</td>
+                        <td class="status-yes" style="color: var(--accent-color); font-weight: 600;">✓ Anonymous</td>
+                        <td>Anonymized crash logs and basic app performance via Firebase</td>
                     </tr>
                     <tr>
                         <td>Advertising IDs</td>
@@ -1124,6 +1124,10 @@
                 </tbody>
             </table>
             
+            <h3>Anonymous Analytics and Crash Data</h3>
+            <p>
+                To improve our app and fix bugs, we use Firebase Analytics and Crashlytics. This data is strictly anonymous and cannot be used to identify you. It includes device type, operating system version, and crash logs.
+            </p>
             <h3>Local Data Storage</h3>
             <p>
                 The only data stored by PDF Suite Pro exists locally on your device and includes:
@@ -1376,7 +1380,7 @@
                     <path d="M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 12 2ZM13 17H11V11H13V17ZM13 9H11V7H13V9Z"/>
                 </svg>
                 <p>
-                    PDF Suite Pro does not integrate with any third-party services that collect user data. The app operates independently without requiring internet connectivity.
+                    While the app's core functions operate independently without internet, we integrate with Firebase to collect anonymous crash and performance data.
                 </p>
             </div>
             
@@ -1395,15 +1399,21 @@
                 None of these libraries transmit data to external servers. All processing happens on your device.
             </p>
             
-            <h3>No Advertising or Analytics</h3>
+            <h3>Analytics and Performance Monitoring</h3>
             <p>
-                PDF Suite Pro does not contain:
+                We use the following Google services exclusively for monitoring app stability and improving user experience:
             </p>
             <ul>
+                <li><strong>Google Analytics for Firebase:</strong> Helps us understand how users interact with the app anonymously.</li>
+                <li><strong>Firebase Crashlytics:</strong> Reports app crashes so we can fix them quickly.</li>
+            </ul>
+            <p>
+                These services collect anonymous device identifiers and non-personal usage data. For more information, please review the <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer" style="color: var(--primary-color);">Google Privacy Policy</a>.
+            </p>
+            <h3>What We Don't Include</h3>
+            <ul>
                 <li>Advertising SDKs (no ads)</li>
-                <li>Analytics or tracking services</li>
                 <li>Social media integration</li>
-                <li>Crash reporting services that upload data</li>
             </ul>
         </section>
 
@@ -1519,7 +1529,7 @@
             
             <h3>No Account Required</h3>
             <p>
-                PDF Suite Pro does not require you to create an account, provide an email address, or share any personal information to use the app's features.
+                PDF Suite Pro does not require you to create an account, provide an email address, or share any personal information to use the app's features. <strong>Because we do not create accounts or collect identifiable personal data, there are no specific account deletion options.</strong> Any anonymous analytics data is retained according to Google Firebase's default retention policies and cannot be linked back to you.
             </p>
             
             <div class="info-box success">
@@ -1571,11 +1581,11 @@
                 <tbody>
                     <tr>
                         <td>Data Collection</td>
-                        <td class="status-yes">✓ None - We don't collect any data</td>
+                        <td class="status-yes">✓ Anonymous analytics & crash reports only</td>
                     </tr>
                     <tr>
                         <td>Internet Connection</td>
-                        <td class="status-yes">✓ Not required - 100% offline</td>
+                        <td class="status-yes">✓ Core features 100% offline (Analytics use minimal data)</td>
                     </tr>
                     <tr>
                         <td>Document Privacy</td>
@@ -1591,7 +1601,7 @@
                     </tr>
                     <tr>
                         <td>User Tracking</td>
-                        <td class="status-yes">✓ None - No analytics or tracking</td>
+                        <td class="status-yes">✓ Anonymous app performance tracking only</td>
                     </tr>
                     <tr>
                         <td>Account Required</td>
