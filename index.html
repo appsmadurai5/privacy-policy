@@ -923,7 +923,7 @@
                     <svg viewBox="0 0 24 24" fill="currentColor">
                         <path d="M19 4H5C3.89 4 3 4.9 3 6V18C3 19.1 3.89 20 5 20H19C20.1 20 21 19.1 21 18V6C21 4.9 20.1 4 19 4ZM19 18H5V8H19V18Z"/>
                     </svg>
-                    Last Updated: March 31, 2026
+                    Last Updated: April 30, 2026
                 </span>
                 <span>
                     <svg viewBox="0 0 24 24" fill="currentColor">
@@ -980,7 +980,7 @@
                     </svg>
                 </div>
                 <h3>100% Offline Processing</h3>
-                <p>All PDF operations happen locally on your device. No internet connection required, ever.</p>
+                <p>PDF core features work fully offline. Ad services use internet to serve ads.</p>
             </div>
             
             <div class="highlight-card">
@@ -1027,7 +1027,7 @@
                     <path d="M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 12 2ZM10 17L5 12L6.41 10.59L10 14.17L17.59 6.58L19 8L10 17Z"/>
                 </svg>
                 <p>
-                    <strong>Key Point:</strong> PDF Suite Pro is designed to work <strong>100% offline</strong>. We do not collect, store, transmit, or share any personal information or user data. Your documents and privacy are completely protected.
+                    <strong>Key Point:</strong> PDF Suite Pro processes all your documents <strong>100% locally</strong> — we never upload, read, or share your files. The app displays ads via Google AdMob and Meta Audience Network, which collect limited device and usage data as described in this policy.
                 </p>
             </div>
             
@@ -1069,60 +1069,31 @@
                 </p>
             </div>
             
-            <h3>Data We Do NOT Collect</h3>
-            <p>To be completely transparent, here is a comprehensive list of data we do NOT collect:</p>
-            
-            <table class="features-table">
-                <thead>
-                    <tr>
-                        <th>Data Type</th>
-                        <th>Collected?</th>
-                        <th>Details</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Personal Information</td>
-                        <td class="status-no">✗ No</td>
-                        <td>Name, email, phone number, address</td>
-                    </tr>
-                    <tr>
-                        <td>Document Content</td>
-                        <td class="status-no">✗ No</td>
-                        <td>PDFs, images, or any file content</td>
-                    </tr>
-                    <tr>
-                        <td>Device Information</td>
-                        <td class="status-no">✗ No</td>
-                        <td>Device ID, model, operating system</td>
-                    </tr>
-                    <tr>
-                        <td>Location Data</td>
-                        <td class="status-no">✗ No</td>
-                        <td>GPS, IP address, geographic location</td>
-                    </tr>
-                    <tr>
-                        <td>Usage Analytics</td>
-                        <td class="status-yes" style="color: var(--accent-color); font-weight: 600;">✓ Anonymous</td>
-                        <td>Anonymized crash logs and basic app performance via Firebase</td>
-                    </tr>
-                    <tr>
-                        <td>Advertising IDs</td>
-                        <td class="status-no">✗ No</td>
-                        <td>Google Advertising ID, tracking IDs</td>
-                    </tr>
-                    <tr>
-                        <td>Contact Information</td>
-                        <td class="status-no">✗ No</td>
-                        <td>Contacts, call logs, messages</td>
-                    </tr>
-                    <tr>
-                        <td>Financial Information</td>
-                        <td class="status-no">✗ No</td>
-                        <td>Payment details, purchase history</td>
-                    </tr>
-                </tbody>
-            </table>
+            <h3>Data Collected — By Whom and Why</h3>
+<p>PDF Suite Pro never collects your personal information or document content. The advertising SDKs embedded in the app collect limited data to serve ads. Full breakdown:</p>
+
+<table class="features-table">
+    <thead>
+        <tr>
+            <th>Data Type</th>
+            <th>Collected?</th>
+            <th>By Whom</th>
+            <th>Purpose</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr><td>Personal Information</td><td>✗ No</td><td>Nobody</td><td>Name, email, phone — never collected</td></tr>
+        <tr><td>Document Content</td><td>✗ No</td><td>Nobody</td><td>Your PDF files never leave your device</td></tr>
+        <tr><td>Advertising ID (GAID)</td><td>✓ Yes</td><td>Google AdMob, Meta Audience Network</td><td>Personalised ads, frequency capping</td></tr>
+        <tr><td>Approximate Location (IP)</td><td>✓ Yes</td><td>Google AdMob</td><td>Geo-targeted ads — no GPS used</td></tr>
+        <tr><td>App Interactions</td><td>✓ Yes</td><td>Google AdMob</td><td>Ad engagement, session tracking</td></tr>
+        <tr><td>Crash Logs &amp; Diagnostics</td><td>✓ Yes</td><td>Firebase Crashlytics</td><td>Bug fixing, stability improvements</td></tr>
+        <tr><td>Usage Analytics</td><td>✓ Anonymous</td><td>Firebase Analytics</td><td>Anonymous app performance metrics</td></tr>
+        <tr><td>Contact Information</td><td>✗ No</td><td>Nobody</td><td>Contacts, messages — never collected</td></tr>
+        <tr><td>Financial Information</td><td>✗ No</td><td>Nobody</td><td>Payment details — never collected</td></tr>
+    </tbody>
+</table>
+<p><strong>Your documents are never touched.</strong> Only advertising and analytics SDKs collect data, solely for the purposes listed above.</p>
             
             <h3>Anonymous Analytics and Crash Data</h3>
             <p>
@@ -1198,7 +1169,6 @@
             <h3>Permissions NOT Required</h3>
             <p>PDF Suite Pro does NOT require or request:</p>
             <ul>
-                <li>Internet/Network access</li>
                 <li>Location services</li>
                 <li>Contacts or phone access</li>
                 <li>Microphone access</li>
@@ -1334,7 +1304,7 @@
             <h3>Security Measures</h3>
             <ul>
                 <li><strong>Local Processing Only:</strong> All PDF operations are performed entirely on your device using the device's native processing capabilities.</li>
-                <li><strong>No Network Transmission:</strong> The app does not have internet permission and cannot transmit data outside your device.</li>
+                <li><strong>Network Use Limited to Ads &amp; Analytics:</strong> Your PDF documents are never transmitted. Only advertising and analytics SDKs (AdMob, Meta, Firebase) send minimal non-personal data over encrypted TLS connections.</li>
                 <li><strong>Encrypted Storage:</strong> Password-protected PDFs use AES-256 encryption, the same standard used by banks and governments.</li>
                 <li><strong>Scoped Storage:</strong> On Android 10+, the app uses scoped storage to limit access to only necessary files.</li>
                 <li><strong>Temporary File Cleanup:</strong> Temporary processing files are automatically deleted after operations complete.</li>
@@ -1399,20 +1369,14 @@
                 None of these libraries transmit data to external servers. All processing happens on your device.
             </p>
             
-            <h3>Analytics and Performance Monitoring</h3>
-            <p>
-                We use the following Google services exclusively for monitoring app stability and improving user experience:
-            </p>
+<h3>Advertising Services</h3>
+<p>PDF Suite Pro displays ads to support free access to all features. We use the following advertising platforms:</p>
+<ul>
+    <li><strong>Google AdMob (Google LLC):</strong> Serves banner and interstitial ads. Collects Android Advertising ID, approximate location (IP-based), and app interaction data for ad targeting. <a href="https://policies.google.com/privacy" target="_blank">Google Privacy Policy</a></li>
+    <li><strong>Meta Audience Network (Meta Platforms Inc.):</strong> Ad mediation partner. Collects Android Advertising ID and device information for ad delivery. <a href="https://www.facebook.com/privacy/policy/" target="_blank">Meta Privacy Policy</a></li>
+</ul>
+<p>You can opt out of personalised advertising at any time via <strong>Android Settings → Privacy → Ads → Delete Advertising ID</strong>.</p>            <h3>What We Don't Include</h3>
             <ul>
-                <li><strong>Google Analytics for Firebase:</strong> Helps us understand how users interact with the app anonymously.</li>
-                <li><strong>Firebase Crashlytics:</strong> Reports app crashes so we can fix them quickly.</li>
-            </ul>
-            <p>
-                These services collect anonymous device identifiers and non-personal usage data. For more information, please review the <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer" style="color: var(--primary-color);">Google Privacy Policy</a>.
-            </p>
-            <h3>What We Don't Include</h3>
-            <ul>
-                <li>Advertising SDKs (no ads)</li>
                 <li>Social media integration</li>
             </ul>
         </section>
@@ -1452,7 +1416,7 @@
                 <li>Personal data collection</li>
                 <li>Social features</li>
                 <li>In-app purchases</li>
-                <li>Advertising</li>
+                <li>Advertising targeted specifically at children</li>
                 <li>External links to inappropriate content</li>
             </ul>
         </section>
@@ -1593,11 +1557,11 @@
                     </tr>
                     <tr>
                         <td>Third-Party Sharing</td>
-                        <td class="status-yes">✓ None - We never share data</td>
+                        <td class="status-yes">Ad data shared with Google AdMob &amp; Meta only</td>
                     </tr>
                     <tr>
                         <td>Advertising</td>
-                        <td class="status-yes">✓ None - Completely ad-free</td>
+                        <td class="status-yes">✓ Free app supported by Google AdMob &amp; Meta ads</td>
                     </tr>
                     <tr>
                         <td>User Tracking</td>
